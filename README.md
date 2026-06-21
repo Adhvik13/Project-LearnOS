@@ -1,228 +1,335 @@
-# Project-LearnOS
-An AI-powered educational workspace featuring prompt-based UI customization, smart writing assistance, handwriting tracking, voice-guided note copying, and personalized learning adaptation.
-AI Study Workspace
+Flowo
 
-Author: [Adhvik Aggarwal]
-
+Author: Adhvik Aggarwal
+Version: 2.0
 Date Published: June 21, 2026
 
-Version: 1.0
+Tagline
 
-Introduction
-
-AI Study Workspace is a concept for an educational AI platform designed specifically for students. Instead of functioning solely as a chatbot, the platform acts as a personalized study environment that adapts to each student's learning habits, writing style, academic level, and workflow.
-
-The goal is to create an AI-powered study operating system that helps students learn, organize, write, and complete academic work more efficiently.
+The AI workspace designed to keep students in flow.
 
 ---
 
-Problem Statement
+What is Flowo?
 
-Current AI tools are primarily focused on answering questions. While useful, they do not adapt well to the student's individual workflow.
+Flowo is an AI-powered educational workspace built around one idea:
 
-Common issues include:
+Students learn best when their concentration is not interrupted.
 
-- Students constantly scrolling while copying answers.
-- AI responses not matching the student's writing ability.
-- Complex settings menus that are difficult to customize.
-- Lack of integration between studying, planning, note-taking, and homework completion.
+Most educational software forces students to constantly switch between apps, tabs, PDFs, chatbots, planners, notebooks, and search engines.
 
-AI Study Workspace aims to solve these problems.
+Every switch breaks attention.
+
+Flowo is designed to remove those interruptions by bringing AI assistance directly into the student's workflow.
+
+Instead of acting like another chatbot, Flowo acts as a personalized study environment that adapts to how each student learns, writes, studies, and organizes information.
 
 ---
 
-Feature 1: Prompt-Based Interface Customization
+Core Principle
 
-Students customize the application through conversation rather than settings menus.
+Preserve Student Flow
+
+Every feature in Flowo is designed around a simple question:
+
+Does this reduce interruptions?
+
+Students should not have to:
+
+- Open separate chat windows.
+- Search through menus.
+- Repeatedly explain their academic level.
+- Scroll through large amounts of text.
+- Switch between note-taking and AI tools.
+
+AI should appear naturally within the learning process.
+
+---
+
+Feature 1: Student Voice Calibration
+
+When setting up Flowo, students can upload previous schoolwork or write a short sample.
+
+The AI learns:
+
+- Writing style
+- Vocabulary level
+- Sentence structure
+- Academic ability
+- Preferred language
+- Common writing habits
+
+Future responses are adapted to match the student's demonstrated level.
+
+This helps make explanations more understandable and personalized.
+
+---
+
+Feature 2: Adaptive Academic Assistance
+
+Flowo continuously adapts to the student's abilities.
+
+Examples:
+
+Beginner
+
+- Simpler explanations
+- More examples
+- Step-by-step guidance
+
+Intermediate
+
+- Standard academic explanations
+
+Advanced
+
+- Deeper concepts
+- Additional challenges
+- Expanded discussions
+
+The AI evolves alongside the student.
+
+---
+
+Feature 3: Smart Writing Assistant
+
+Many students copy notes and assignments from digital devices into notebooks.
+
+Flowo automatically tracks progress.
+
+Example:
+
+Student writes:
+
+"Photosynthesis is the process..."
+
+Flowo automatically brings the next unfinished portion into focus while minimizing completed content.
+
+Benefits:
+
+- Less scrolling
+- Faster writing
+- Reduced distraction
+
+---
+
+Feature 4: Voice Progress Tracking
+
+Students can read aloud while writing.
+
+The AI recognizes where the student currently is and automatically advances through the material.
+
+No buttons required.
+
+No manual tracking required.
+
+---
+
+Feature 5: Handwriting Recognition
+
+Using a device camera, Flowo can detect:
+
+- Written content
+- Assignment progress
+- Current sentence position
+
+The workspace updates automatically.
+
+This creates synchronization between physical notebooks and digital content.
+
+---
+
+Feature 6: Natural Language Workspace Customization
+
+Students customize their workspace using prompts.
 
 Examples:
 
 "Move assignments to the top."
 
-"Create an exam preparation dashboard."
+"Create an exam dashboard."
 
-"Use a dark futuristic theme."
+"Hide completed work."
 
-"Show only science-related tasks."
+"Create a distraction-free layout."
 
-"Create a minimal distraction-free layout."
-
-The AI automatically reorganizes the interface.
-
-Benefits:
-
-- No learning curve.
-- Personalized experience.
-- Faster customization.
-- Increased engagement.
+Flowo updates the workspace automatically.
 
 ---
 
-Feature 2: Smart Writing Assistant
+Feature 7: Block-Based Workspace
 
-Students often copy notes or assignments into notebooks.
-
-Instead of displaying an entire answer, the AI tracks progress and highlights only the next portion that needs to be written.
-
-Example:
-
-Current notebook text:
-
-"Photosynthesis is the process..."
-
-Displayed content:
-
-"by which green plants prepare their own food using sunlight."
-
-Completed sections are minimized automatically.
-
-Benefits:
-
-- Reduced scrolling.
-- Improved focus.
-- Faster note copying.
-
----
-
-Feature 3: Voice Progress Tracking
-
-Students may read aloud while writing.
-
-The AI listens and automatically advances through the text as the student progresses.
-
-Example Workflow:
-
-Student says:
-
-"Photosynthesis is the process..."
-
-The AI identifies the current position and updates the display automatically.
-
-Benefits:
-
-- Hands-free navigation.
-- Better accessibility.
-- Faster workflow.
-
----
-
-Feature 4: Handwriting Recognition
-
-The student can point a phone camera toward a notebook.
-
-The AI detects:
-
-- Written words.
-- Current sentence position.
-- Progress through an assignment.
-
-The displayed content updates automatically.
-
-Benefits:
-
-- Reduced manual interaction.
-- Better synchronization between physical and digital work.
-
----
-
-Feature 5: Student Voice Calibration
-
-Upon signup, students upload previous schoolwork or write a sample paragraph.
-
-The AI analyzes:
-
-- Vocabulary level.
-- Sentence complexity.
-- Writing style.
-- Grammar habits.
-- Preferred language.
-
-Future responses are generated to match the student's writing level.
-
-Example:
-
-Student style:
-
-"Plants make food with sunlight."
-
-AI generates:
-
-"Plants make food using sunlight. This process is called photosynthesis."
-
-Instead of producing university-level language.
-
-Benefits:
-
-- More natural responses.
-- Better learning support.
-- Appropriate academic level.
-
----
-
-Feature 6: Adaptive Academic Assistance
-
-The platform adapts explanations according to student ability.
+The Flowo workspace consists of movable blocks.
 
 Examples:
 
-Beginner:
-Simple explanations with examples.
+- Assignments
+- Notes
+- Flashcards
+- Study Timers
+- Revision Lists
+- Exam Trackers
+- AI Tutor Panels
 
-Intermediate:
-Moderate detail and practice questions.
-
-Advanced:
-Deeper explanations and challenging exercises.
-
-Benefits:
-
-- Personalized learning.
-- Improved comprehension.
-- Better academic outcomes.
+Students can move, resize, create, and organize blocks through drag-and-drop or natural language commands.
 
 ---
 
-Feature 7: Personalized Study Dashboard
+Feature 8: AI-Generated Study Blocks
 
-The dashboard continuously adapts to student behavior.
+Students can request custom blocks.
 
-Factors:
+Examples:
 
-- Assignment deadlines.
-- Exam schedules.
-- Frequently studied subjects.
-- Daily study habits.
+"Create a Class 10 Science Revision Block."
 
-The AI automatically prioritizes relevant information.
+"Create a Physics Formula Sheet."
 
-Benefits:
+"Create a Board Exam Tracker."
 
-- Improved organization.
-- Better time management.
-- Reduced cognitive load.
+The AI builds specialized study tools directly within the workspace.
+
+---
+
+Feature 9: Mindboard Mode
+
+Mindboard Mode is Flowo's flagship workspace.
+
+It is a tablet-first infinite canvas designed for:
+
+- iPads
+- Android tablets
+- Stylus users
+- Touchscreen devices
+
+Students can:
+
+- Handwrite notes
+- Create mind maps
+- Draw diagrams
+- Annotate PDFs
+- Organize study materials visually
+
+Mindboard is designed to feel like a digital desk rather than a traditional application.
+
+---
+
+Feature 10: AI Visual Assistance
+
+Within Mindboard Mode, students can ask the AI to:
+
+- Summarize chapters
+- Build mind maps
+- Organize notes
+- Create revision boards
+- Explain diagrams
+
+The AI places content directly onto the canvas.
+
+No separate chat interface is required.
+
+---
+
+Feature 11: AI Ink Commands
+
+Students can create custom symbols that act as AI shortcuts.
+
+Examples:
+
+⭐ Ask AI
+
+🧠 Generate Mind Map
+
+📝 Summarize
+
+📚 Create Revision Sheet
+
+The student draws the symbol and continues writing.
+
+Flowo recognizes the command and responds directly on the canvas.
+
+This allows students to interact with AI without breaking concentration.
+
+---
+
+Feature 12: Board Exam Intelligence
+
+Flowo analyzes historical board examination data.
+
+It identifies:
+
+- Frequently repeated questions
+- Frequently tested concepts
+- High-priority chapters
+- Marks distribution trends
+
+The purpose is not to predict future papers.
+
+The purpose is to help students identify historically important topics.
+
+---
+
+Feature 13: Personalized Exam Planning
+
+Flowo combines:
+
+- Exam schedules
+- Study habits
+- Historical performance
+- Board exam analysis
+
+To generate personalized revision plans.
+
+Example:
+
+"You have 14 days until your Science exam. Prioritize Electricity, Carbon Compounds, and Life Processes."
+
+---
+
+Feature 14: Generative Study Environments
+
+Students can describe what they need.
+
+Example:
+
+"I have a Science exam next week."
+
+Flowo automatically creates:
+
+- Revision trackers
+- Study schedules
+- Notes sections
+- Formula sheets
+- Practice areas
+
+The workspace adapts itself to the student's goals.
 
 ---
 
 Long-Term Vision
 
-Transform AI from a question-answer tool into a complete educational workspace.
+Flowo aims to become the operating system for learning.
 
-The platform should:
+Not a chatbot.
 
-- Understand how a student learns.
-- Understand how a student writes.
-- Understand what a student is currently working on.
-- Adapt the interface automatically.
-- Provide personalized educational assistance.
+Not a note-taking app.
 
-The ultimate goal is to create an AI-powered study operating system that feels unique to every student.
+Not a planner.
+
+A unified workspace that understands:
+
+- How students learn
+- How students write
+- What students are studying
+- What students struggle with
+- What students need next
+
+And delivers assistance without interrupting flow.
 
 ---
 
-Version History
+Mission
 
-Version 1.0
+Build the first AI educational workspace where assistance feels invisible, natural, and always available without breaking student concentration.
 
-Published June 21, 2026
-
-Initial publication of the AI Study Workspace concept.
+Flowo — Keep Learning. Stay in Flow.
