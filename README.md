@@ -1,7 +1,9 @@
 Flowo
 
 Author: Adhvik Aggarwal
+
 Version: 2.0
+
 Date Published: June 21, 2026
 
 Tagline
